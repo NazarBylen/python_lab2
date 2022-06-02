@@ -1,6 +1,4 @@
-from complex_class import *
-
-class stack_funcs():
+class stack_functionality():
 
     global stack
     stack=[]

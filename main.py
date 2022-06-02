@@ -1,11 +1,11 @@
 from complex_class import *
-from stack_funcs import *
+from stack_functionality import *
 
 complex1 = complex_num('ab', 'bi')
 complex2 = complex_num('b', 'abi')
 complex3 = complex_num('a', 'bi')
 
-new_stack = stack_funcs()
+new_stack = stack_functionality()
 
 new_stack.add_element(complex1)
 new_stack.add_element(complex2)
